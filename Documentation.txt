@@ -1,0 +1,23 @@
+Tout d'abord, pour le mettre en place, mettez le dossier compressé n'importe où sur votre ordinateur. Ensuite, ouvrez le dossier et double-cliquez sur le .exe. Une page noire s'ouvre. Au bout d'environ 1 minute (estimation basée sur mon PC et la estimée puissance du votre), du texte apparaît dans la page noire et vous demande de choisir entre le mode "HISTOIRE" et le mode "JEU". Tapez "JEU" pour le mode jeu et n'importe quoi d'autre pour le mode histoire.
+
+Information inutile: Le programme final fait 483 lignes. Ayant appris la programmation cette année, il se peut qu'il y ai des bugs comme par exemple un que j'ai trouvé qui permet en mode "JEU" de voler des points d'action à l'adversaire ou un autre qui fait que ça plante si vous cliquez sur un personnage peu importe le mode mais rien de bien important et surtout rien qui concerne le mode "HISTOIRE" (hormis le clique sur personnage) aux dernières nouvelles.
+
+Visiblement, cliquer sur la fenêtre noire avant l'affichage du choix du mode empêche l'exécution du programme. 
+
+MODE HISTOIRE:
+Le mode le plus important, le plus facile à coder et le plus réussi. Déplacez votre bonhomme avec les flèches, appuyez sur [z] pour zoomer/dézoomer (le dézoom devrais vous prendre entre 10 et 30 secondes environ). En dézoom, votre personnage, le "voyageur", est indiqué par un carré rouge (comme les frontières françaises, erreur de développement). Peu importe le zoom, cliquez sur une case pour savoir ce qu'elle contient et le plus importants, cliquez sur les cases contenant un [!] pour savoir ce qu'il s'est passé ici. Appuyez sur [t] pour passer à la carte suivante (en zoom de base seulement, l'affichage ne s'actualisant pas en dézoom vous ne veriez pas que la carte a changé.). Appuyez sur [r] pour retourner à la carte précédente si vous êtes pas à la première (en zoom de base seulement, l'affichage ne s'actualisant pas en dézoom vous ne veriez pas que la carte a changé.). Il y as 10 cartes (de "histoire (1)" à "histoire (10)"). Une fois arrivé au bout, appuyez sur [t] pour fermer.
+
+MODE JEU:
+Les déplacement s'effectuent avec les flèches, [z] fait le zoom/dézoom (le dézoom devrais vous prendre entre 10 et 30 secondes environ). En dézoom, le personnage actif, le "possédé", est indiqué par un carré rouge (comme les frontières françaises, erreur de développement). Vos actions restantes, pvs et le propriétaire du personnage. Quand un joueur a gagné, appuyez sur [t] pour l'afficher, sinon, appuyez sur [t] pour passer votre tour. Appuyez sur [a] avec votre souris au dessus d'un personnage (ne cliquez surtout pas, fonctionne sur soi-même) pour l'attaquer. Le premier à 0 pvs perds. Les personnages ont une portée de 4 cases.
+
+PS: Les textes des évènements ont été rédigés par Yann.
+PS2: BEAUCOUP de choses dépendent des textes du dossier "textes" et toutes les images viennent du dossier "images" donc vous pourrez vous amuser à le modifier dans la mesure du possible (cette idée m'est venue car j'avais besoin d'un programme similaire donc je le rends recyclable et je fait d'une pierre 3 coups: Un devoirs d'histoire, un moteur de jeu pour partager un jeu et un moteur de jeu à partager mais avant ça il va falloir paufiner.
+
+Modification de la version 2:
+-Ajout d'une animation test en appuyant sur "e";
+-Nombreuses optimisations notamment pour le dézoom désormais instantané;
+-Transformation de la fonction "detect_anomalies" en l'objet "entite" pour optimiser et simplifier le code ainsi que pour le réécriture;
+-Mise en place de l'"affichage total" c'est à dire: création d'un vrai menu et d'une vraie victoire
+-Suppression de code inutile
+
+Documentation signée Geoffroy

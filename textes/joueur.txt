@@ -1,0 +1,4 @@
+propriétaire:
+type:
+actions restantes:
+pv restant:

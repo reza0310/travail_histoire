@@ -1,0 +1,2 @@
+actions: 1
+portée: -2cases
